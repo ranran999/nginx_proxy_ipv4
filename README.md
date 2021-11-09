@@ -9,4 +9,4 @@ ARMv6向けのhttp proxyがdockerhubでみあたらなかったのでpushする�
 docker build -t ranran9/nginx_proxy ./
 
 # Run
-docker run --rm -p 3128:3128 ranran9/nginx_proxy
+docker run -d --name nginx -p 3128:3128 ranran9/nginx_proxy
