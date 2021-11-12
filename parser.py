@@ -1,3 +1,4 @@
+# coding=utf-8
 # nginxのエラーログ　docker logs nginx > out.log
 test_data = open("out.log", "r")
 score = {}
